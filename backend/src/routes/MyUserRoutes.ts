@@ -1,7 +1,8 @@
 import express from "express";
 import MyUserController from "../controllers/MyUserControllers.js";
-//import { jwtCheck, jwtParse } from "../middleware/auth";
-//import { validateMyUserRequest } from "../middleware/validation";
+// Uncomment these imports when ready to implement authentication
+// import { jwtCheck, jwtParse } from "../middleware/auth.js";
+// import { validateMyUserRequest } from "../middleware/validation.js";
 
 const router = express.Router();
 
